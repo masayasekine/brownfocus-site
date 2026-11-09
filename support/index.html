@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support – Brown Focus</title>
+<link rel="stylesheet" href="../style.css">
+<script>
+(function () {
+  var langs = navigator.languages || [navigator.language || ""];
+  var ja = langs.some(function (l) { return /^ja\b/i.test(l); });
+  location.replace(ja ? "../ja/support.html" : "../en/support.html");
+})();
+</script>
+</head>
+<body>
+<main>
+<header><a href="../"><span class="ring"></span>Brown Focus</a></header>
+<h1>Support / サポート</h1>
+<ul>
+<li><a href="../ja/support.html">日本語のサポートページ</a></li>
+<li><a href="../en/support.html">Support page in English</a></li>
+</ul>
+<footer>© 2026 Brown Focus</footer>
+</main>
+</body>
+</html>
